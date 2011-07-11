@@ -1,0 +1,15 @@
+PowerSim:
+
+added new level module and levelevents. 
+These enable people to script levels by having events occur after
+a given amount of ticks[default] (or whichever method is chosen by user.) 
+
+Implemented AddUnitEvent, MakeSwing event and MakePopup event.
+MakePopup seems to have a bug in which it cannot be created at time 0.
+
+Noticed some other bugs to do with surfaces not displaying during
+transitions between menus. Requires testing on windows pc to see if
+it occurs there.
+
+Also notice that it is difficult to restart game without exiting and 
+actually beginning game again. 

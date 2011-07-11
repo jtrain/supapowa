@@ -1,0 +1,68 @@
+SCREEN_SIZE = (800,400)
+#------FPS-------------
+FPS = 10
+
+#---------------------#
+#------COLOURS---------
+WHITE = (255,255,255)
+DULL_WHITE = (200,200,200)
+DULL_GREY = (150,150,150)
+RED = (255,0,0)
+GREEN = (0,255,0)
+BLUE = (0,0,255)
+BLACK = (0,0,0)
+GREY = (25,25,25)
+TRANSPARENT = (1,1,1)
+PSEUDO_TRANSPARENT = (2,2,2)
+HEADING_COL = (255,255,100)
+TEXT_COL = WHITE
+
+# warning levels.
+WARNING_UNSELECTED = (200, 100, 100)
+WARNING_SELECTED = (220, 120, 120)
+WARNING_OFFLINE = (220, 220, 10)
+
+#---------BUTTON-------
+BUTTON_BACK = (100,100,100)
+BUTTON_INNER_HOVER = (65,65,65)
+BUTTON_INNER_BASE = (50,50,50)
+#---------POPUP/TEXTENTRY-------
+POPUP_INNER_BASE = (50,50,70)
+TEXT_ENTRY_INNER = (70, 70, 70)
+#---------PANEL----------------
+PANEL_BACK = (30,30,30)
+PANEL_BORDER = (90,90,90)
+#-----------------------#
+
+#------FONT SIZES--------
+DEFAULT_FONT_SIZE = 10
+HEADING_FONT_SIZE = 15
+
+#------BUTTON STATES------
+BUTTON_ON = 1 #Mouse is hovering on button
+BUTTON_OFF = 0#Mouse is not hovering on button
+
+#------POPUP CONSTANTS-----
+POPUP_ALPHA = 230
+POPUP_PADDING = 20
+
+#------PANEL CONSTANTS---------
+PANEL_SIZE = (SCREEN_SIZE[0] / 3, SCREEN_SIZE[1])
+PANEL_POS = (SCREEN_SIZE[0] - PANEL_SIZE[0], \
+        SCREEN_SIZE[1] - PANEL_SIZE[1])
+SUB_PANEL_SIZE = (PANEL_SIZE[0] - 4, 180)
+
+#------SPRITE CONSTANTS-------
+SPRITE_SIZE = (24,24)
+
+#------TILE CONSTANTS--------
+#HEX_THETA = 0.42403 #24.2952 degrees
+HEX_THETA = 0.57735 #24.2952 degrees
+HEX_A = 0.4330127
+HEX_B = 0.25
+HEX_S = 0.5
+
+#------MESH CONSTANTS--------
+TILE_HEIGHT = 32
+TILE_WIDTH = round(TILE_HEIGHT * HEX_A * 2)
+TILE_B = TILE_HEIGHT * HEX_B
